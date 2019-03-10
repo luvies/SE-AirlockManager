@@ -218,8 +218,7 @@ namespace IngameScript
 
             public void Process()
             {
-                var status = Status;
-                switch (status)
+                switch (Status)
                 {
                     case AirlockStatus.InsideOpen:
                         if (ChangeEnabledState)
